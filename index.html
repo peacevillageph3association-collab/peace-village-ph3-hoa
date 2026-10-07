@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Peace Village Phase 3 HOA | San Luis, Antipolo City</title>
+<meta name="description" content="Peace Village Phase 3 Homeowners Association community portal.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+ <div class="container nav">
+  <a class="brand" href="#home"><span class="logo">PV3</span><span><b>Peace Village Ph3</b><small>Homeowners Association</small></span></a>
+  <button id="menuBtn" aria-label="Menu">☰</button>
+  <nav id="nav">
+   <a href="#home">Home</a><a href="#dashboard">Dashboard</a><a href="#announcements">News</a><a href="#officers">Officers</a>
+   <a href="#documents">Documents</a><a href="#forms">Forms</a><a href="#events">Events</a><a href="#contact">Contact</a>
+  </nav>
+ </div>
+</header>
+
+<main>
+<section id="home" class="hero">
+ <div class="container hero-inner">
+  <span class="pill">OFFICIAL COMMUNITY PORTAL</span>
+  <h1>Peace Village<br><strong>Phase 3 HOA</strong></h1>
+  <p>Transparent service. Better communication. A stronger community.</p>
+  <div class="actions"><a class="btn primary" href="#announcements">Latest Updates</a><a class="btn ghost" href="#forms">Submit a Concern</a></div>
+ </div>
+</section>
+
+<section class="stats">
+ <div class="container stat-grid">
+  <div><b>Community</b><span>Peace Village Phase 3</span></div>
+  <div><b>Barangay</b><span>San Luis, Antipolo City</span></div>
+  <div><b>Portal</b><span>HOA Information & Services</span></div>
+  <div><b>Status</b><span class="live">● Active</span></div>
+ </div>
+</section>
+
+<section id="dashboard" class="section">
+ <div class="container">
+  <div class="section-head"><div><label>COMMUNITY DASHBOARD</label><h2>What you need, in one place.</h2></div></div>
+  <div class="feature-grid">
+   <a href="#announcements" class="feature"><i>📢</i><b>Announcements</b><span>Notices, updates and advisories</span></a>
+   <a href="#documents" class="feature"><i>📁</i><b>Documents</b><span>Approved HOA records and references</span></a>
+   <a href="#forms" class="feature"><i>📝</i><b>Forms & Requests</b><span>Complaints, requests and inquiries</span></a>
+   <a href="#transparency" class="feature"><i>💰</i><b>Transparency</b><span>Reports and accountability records</span></a>
+  </div>
+ </div>
+</section>
+
+<section id="announcements" class="section soft">
+ <div class="container">
+  <div class="section-head"><div><label>NEWS & ADVISORIES</label><h2>Latest announcements</h2></div></div>
+  <div class="news-grid">
+   <article><span class="tag">NOTICE</span><h3>Official HOA Communication</h3><p>Please use the officially designated HOA email, contact number and forms for association-related concerns.</p><small>Replace this with the approved announcement date.</small></article>
+   <article><span class="tag">COMMUNITY</span><h3>Coordination of Activities</h3><p>Community activities and projects should be properly coordinated with the HOA Board and relevant authorities.</p><small>Replace this with the approved announcement date.</small></article>
+   <article><span class="tag">UPDATE</span><h3>Documents & Records</h3><p>Approved resolutions, minutes, forms and reports will be published here as they are made available.</p><small>Replace this with the approved announcement date.</small></article>
+  </div>
+ </div>
+</section>
+
+<section id="officers" class="section">
+ <div class="container">
+  <div class="section-head"><div><label>LEADERSHIP</label><h2>Board & Officers</h2><p>Replace the placeholders with the official roster.</p></div></div>
+  <div class="people">
+   <div><div class="person">P</div><h3>HOA President</h3><span>President</span></div>
+   <div><div class="person">V</div><h3>Vice President</h3><span>Vice President</span></div>
+   <div><div class="person">S</div><h3>Secretary</h3><span>Secretary</span></div>
+   <div><div class="person">T</div><h3>Treasurer</h3><span>Treasurer</span></div>
+   <div><div class="person">A</div><h3>Auditor</h3><span>Auditor</span></div>
+   <div><div class="person">D</div><h3>Director</h3><span>Board of Director</span></div>
+  </div>
+ </div>
+</section>
+
+<section id="documents" class="section soft">
+ <div class="container">
+  <div class="section-head"><div><label>DOCUMENT CENTER</label><h2>Searchable documents</h2><p>Add approved PDFs to the <b>documents</b> folder and update the links.</p></div></div>
+  <input id="docSearch" class="search" placeholder="🔎 Search documents...">
+  <div class="doc-grid" id="docGrid">
+   <a class="doc" data-name="by laws" href="#" onclick="notice(event,'Replace this link with the approved HOA By-Laws PDF.')">📘 <b>HOA By-Laws</b><span>Governing document</span></a>
+   <a class="doc" data-name="board resolutions" href="#" onclick="notice(event,'Replace this link with the approved Board Resolutions PDF or folder.')">📑 <b>Board Resolutions</b><span>Approved resolutions</span></a>
+   <a class="doc" data-name="meeting minutes" href="#" onclick="notice(event,'Replace this link with the approved Meeting Minutes file.')">🗒️ <b>Meeting Minutes</b><span>Official meeting records</span></a>
+   <a class="doc" data-name="financial reports transparency" href="#transparency">💰 <b>Financial Reports</b><span>Transparency records</span></a>
+   <a class="doc" data-name="forms grievance complaint" href="#forms">📝 <b>HOA Forms</b><span>Requests and complaints</span></a>
+   <a class="doc" data-name="dhsud registration" href="#" onclick="notice(event,'Add the approved DHSUD/HIGC-related reference here when ready.')">🏛️ <b>Registration References</b><span>Approved regulatory documents</span></a>
+  </div>
+ </div>
+</section>
+
+<section id="forms" class="section">
+ <div class="container">
+  <div class="section-head"><div><label>HOMEOWNER SERVICES</label><h2>Forms & requests</h2><p>Connect these buttons to your Google Forms or official online forms.</p></div></div>
+  <div class="form-grid">
+   <div class="form-card"><i>⚠️</i><h3>Grievance & Complaint</h3><p>Report a community concern through the HOA's official grievance process.</p><button onclick="notice(null,'Replace this button with your approved Google Form link.')">Open Form</button></div>
+   <div class="form-card"><i>📄</i><h3>Document Request</h3><p>Request access to HOA records subject to applicable rules and approvals.</p><button onclick="notice(null,'Replace this button with your document request form link.')">Request</button></div>
+   <div class="form-card"><i>🏘️</i><h3>Community Concern</h3><p>Submit concerns involving parking, pets, cleanliness, utilities or common areas.</p><button onclick="notice(null,'Replace this button with your community concern form link.')">Submit</button></div>
+   <div class="form-card"><i>📬</i><h3>General Inquiry</h3><p>Send a question or request to the HOA through the official channel.</p><button onclick="emailHOA()">Email HOA</button></div>
+  </div>
+ </div>
+</section>
+
+<section id="events" class="section soft">
+ <div class="container">
+  <div class="section-head"><div><label>COMMUNITY CALENDAR</label><h2>Activities & projects</h2></div></div>
+  <div class="timeline">
+   <div><span>01</span><div><b>Community Activity</b><p>Add the approved date, venue and details here.</p></div></div>
+   <div><span>02</span><div><b>Clean & Green</b><p>Add the approved schedule and participation instructions.</p></div></div>
+   <div><span>03</span><div><b>HOA Meeting</b><p>Add the approved meeting date, time and venue.</p></div></div>
+  </div>
+ </div>
+</section>
+
+<section id="transparency" class="section">
+ <div class="container">
+  <div class="section-head"><div><label>TRANSPARENCY</label><h2>Accountability center</h2><p>Publish only records approved for community distribution.</p></div></div>
+  <div class="trans-grid">
+   <div><b>📊 Financial Reports</b><p>Monthly/quarterly reports, collections and approved expenditures.</p><a href="#" onclick="notice(event,'Add the approved financial report link.')">View records →</a></div>
+   <div><b>📜 Resolutions</b><p>Board decisions and approved resolutions.</p><a href="#documents">Document center →</a></div>
+   <div><b>🗒️ Minutes</b><p>Approved minutes and meeting records.</p><a href="#documents">Document center →</a></div>
+  </div>
+ </div>
+</section>
+
+<section class="section soft">
+ <div class="container gallery">
+  <div><label>COMMUNITY GALLERY</label><h2>Our neighborhood</h2><p>Add official HOA photos to the <b>images</b> folder and replace these placeholders.</p></div>
+  <div class="photo-grid"><div>📷<br><small>Photo 1</small></div><div>📷<br><small>Photo 2</small></div><div>📷<br><small>Photo 3</small></div></div>
+ </div>
+</section>
+
+<section id="contact" class="contact">
+ <div class="container contact-grid">
+  <div><label>OFFICIAL CONTACT</label><h2>Peace Village Phase 3 HOA</h2><p>Barangay San Luis, Antipolo City, Rizal, Philippines</p></div>
+  <div class="contact-box"><b>Official HOA Email</b><a href="mailto:YOUR-OFFICIAL-EMAIL@example.com">YOUR-OFFICIAL-EMAIL@example.com</a><b>Official Contact Number</b><a href="tel:+639000000000">+63 900 000 0000</a><a class="btn primary" href="mailto:YOUR-OFFICIAL-EMAIL@example.com">Contact HOA</a></div>
+ </div>
+</section>
+</main>
+<footer><div class="container foot"><b>Peace Village Phase 3 HOA</b><span>© <span id="year"></span> · Official Community Portal</span></div></footer>
+<div id="modal" class="modal"><div class="modal-box"><button onclick="closeModal()">×</button><p id="modalText"></p><button class="btn primary" onclick="closeModal()">Close</button></div></div>
+<script src="script.js"></script>
+</body></html>
